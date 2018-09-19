@@ -35,7 +35,7 @@ var newDiv = document.createElement("div");
 var textDiv = document.createTextNode("Test 4");
 newDiv.appendChild(textDiv);
 
-// append to list
+// append to list --
 divList.appendChild(newDiv);
 // querySelectorAll generates a static nodeList, so it doesn't update
 console.log(divs);
